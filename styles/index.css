@@ -1,0 +1,71 @@
+section {
+    display: inline-block;
+}
+.logo {
+    color: #0A1B32;
+    font-family: 'Montserrat', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 160% */
+    letter-spacing: -0.6px;
+    margin-top: 37px;
+    margin-left: 80px;
+}
+.logo-dot {
+    color: #A3DC00;
+
+}
+.main-title {
+    color: #1B0A42;
+    font-family: 'Ramaraja', serif;
+    /*I don't really get why I write "serif" here, is it a fallback-thing? And if so, why don't I write it BEFORE "Ramaraja"?*/
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px; /* 105.556% */
+    letter-spacing: 1.44px;
+    margin-top: 280.71px;
+    margin-left: 200px;
+    max-width: 550px;
+    width: 100%;
+
+}
+.main-info {
+    color: #9A9A9A;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+    margin-left: 200px;
+    max-width: 582.712px;
+    width: 100%;
+}
+.main-button {
+    width: 152px;
+    height: 63.818px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #A3DC00;
+    margin-top: 50x;
+    margin-left: 200px;
+    border: none;
+}
+.text-button {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    letter-spacing: 0.32px;
+}
+.main-image {
+    /*My image went below the text with the original size, so I set the max-width to 450px.*/
+    max-width: 450px; 
+    width: 100%;
+}
